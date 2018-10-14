@@ -1,0 +1,2 @@
+# zulgurko
+vps nixos configuration
