@@ -164,19 +164,6 @@
           };
 
 
-
-          "bazar.kriloter.com" = {
-             serverAliases = [ "www.bazar.kriloter.com" ];
-#             forceSSL = true;
-#             enableACME = true;
-             root = "/var/www/kriloter.com/bazar";
-             locations."~ \.php$".extraConfig = ''
-               fastcgi_pass 127.0.0.1:9000;
-               fastcgi_index index.php;
-             '';
-          };
-
-
           "sunworld.kriloter.com" = {
              forceSSL = true;
              enableACME = true;
